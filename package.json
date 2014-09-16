@@ -1,0 +1,22 @@
+{
+	"name": "fp-for-mozilla-extensions",
+	"version": "0.0.0",
+	"dependencies": {
+		"smi.cli": "0.x"
+	},
+  	"mappings": {
+	    "./examples/reference/packages/pinf-for-mozilla-addon-sdk": "https://github.com/pinf/pinf-for-mozilla-addon-sdk/archive/ad6eaae3610bbe84ba12304615561d16082a33df.tar.gz"
+   	},
+	"scripts": {
+		"install": "./node_modules/.bin/smi install"
+	},
+  	"config": {
+  		"smi.cli": {
+	      "packagesDirectory": "node_modules",
+	      "latestOnly": true
+	    },
+		"pio.deploy.converter": {
+		  	"name": "nodejs-lib"
+		}
+	}
+}

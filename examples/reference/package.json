@@ -1,0 +1,13 @@
+{
+  "name": "reference",
+  "title": "reference",
+  "id": "jid1-9dhQt0BsXopRLg",
+  "description": "Freedom Platform Container for Mozilla Extensions Reference Example",
+  "author": "",
+  "license": "MPL 2.0",
+  "version": "0.1",
+  "dependencies": [
+    "pinf-for-mozilla-addon-sdk",
+  	"addon-sdk"
+  ]
+}
